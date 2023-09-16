@@ -3,7 +3,6 @@ def tokenize (lines):
     for line in lines:
         start = 0
         while start < len(line):
-            
             if line[start].isspace():
                 start = start+1
                 continue
